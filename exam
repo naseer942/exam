@@ -1,0 +1,47 @@
+<Html>  
+<head>   
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body bgcolor="white">  
+<head>
+REGISTRATION FORM
+</head> <br><br>
+<form>  
+  
+<label> Firstname </label> 
+<input type="text" name="firstname" size="7.5%"/> <br> <br>  
+<label> Secondname: </label>     
+<input type="text" name="secondname" size="7.5%"/> 
+ <br> <br>  
+  
+<label>   
+Course :  
+</label>   
+<select>  
+<option value="Course">Course</option>  
+<option value="BTech">BTech</option>  
+<option value="MTech">MTech</option>  
+<option value="CIVIL">CIVIL</option>  
+</select>  <br>
+  <label>
+AGE:
+</label>
+<input type="text" name="AGE" size="1.5%"><br>
+<br>  
+<br>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio name=Gender"/>Gender<br>
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<br>  
+  <label>   
+submit
+</label><br>
+<input type="button" value="Submit"/>  
+</form>  
+</body>  
+</html>  
